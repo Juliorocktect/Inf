@@ -8,7 +8,9 @@ public class Beispielklasse{
     }
     
     public void aufgabe1(){
-        //EIGENER CODE
+        System.out.println(flaecheRechteck(2.0,3.0));
+        System.out.println(flaecheRechteck(2.3,2.4));
+        System.out.println(flaecheRechteck(3.0,3.0));
         
     }    
     
