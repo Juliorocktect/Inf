@@ -15,7 +15,7 @@ public class Beispielklasse{
     }    
     
     public double flaecheRechtwinkligesDreieck(double a, double b){    
-        return //EIGENER CODE        
+        return 0.5*a*b;
     }    
     
     public double flaecheKreis(double r){    
@@ -25,13 +25,14 @@ public class Beispielklasse{
     }    
     
     public double volumenQuader(double a, double b, double c){    
-        return  //EIGENER CODE
+        return a*b*c;
                 
     }    
     
     public void aufgabe2(){
-        //EIGENER CODE
-               
+        System.out.println(flaecheRechtwinkligesDreieck(3.0,5.0));
+        System.out.println(flaecheKreis(5.0));
+        System.out.println(volumenQuader(2.0,2.0,5,0));
     } 
     
 }
