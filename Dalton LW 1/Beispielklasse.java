@@ -32,7 +32,7 @@ public class Beispielklasse{
     public void aufgabe2(){
         System.out.println(flaecheRechtwinkligesDreieck(3.0,5.0));
         System.out.println(flaecheKreis(5.0));
-        System.out.println(volumenQuader(2.0,2.0,5,0));
+        System.out.println(volumenQuader(2.0,2.0,5.0));
     } 
     
 }
